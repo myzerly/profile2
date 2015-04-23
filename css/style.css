@@ -1,0 +1,53 @@
+        body {
+          background-color: #F3F3F4;
+          font-family: ;
+        }
+        header {
+          background-image: url(../img/lospapersproto.jpg);
+          background-position: center;
+          background-size: cover;
+          margin-bottom: 5px;
+        } 
+        h2 {
+          padding-bottom: 20px;
+        }
+        h3 {
+          text-align: center;
+          font-weight: lighter;
+          font-size: 48px;
+        }
+        h4 {
+          font-weight: lighter;
+          text-align: center;
+        }
+        p {
+          font-weight: lighter;
+        }
+        .stupid {
+          padding: 20px;
+          font-weight: lighter;
+        }
+
+        .Nic { 
+          margin: 20px 20px 20px 0px;
+          border: 2px solid;
+          border-radius: 5px;
+          border-color: white;
+        }
+        .terrible {
+          padding: 20px;
+        }
+        .bottom-nav {
+        	background: black;
+        	color: white;
+        }
+        li.bottom-nav {
+        	text-align: center;
+        	font-weight: lighter;
+        }
+        h5.bottom-nav {
+        	padding-top: 10px;
+        	text-align: center;
+        	font-weight: lighter !important;
+        }
+   		
