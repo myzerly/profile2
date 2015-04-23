@@ -1,6 +1,8 @@
+        * {
+          font-family: courier, sans-serif !important;
+        }
         body {
           background-color: #F3F3F4;
-          font-family: ;
         }
         header {
           background-image: url(../img/lospapersproto.jpg);
@@ -40,7 +42,6 @@
         h5.bottom-nav {
         	padding-top: 10px;
         	text-align: center;
-        	font-weight: lighter !important;
         }
         .profile-top-nav {
           height: 50px;
