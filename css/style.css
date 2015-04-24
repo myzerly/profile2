@@ -4,15 +4,6 @@
         body {
           background-color: #F3F3F4;
         }
-        .about-me-background {
-          position: relative;
-          z-index: -1;
-        } 
-        .about-me {
-          position: absolute;
-          bottom: 0; 
-          left: 0.5em; 
-        }
         h2 {
           padding-bottom: 20px;
         }
@@ -54,4 +45,12 @@
         .pirate-icon {
           max-height: 40px;
         }
+        .about-me-background {
+          background-image: url(./img/LOSbackground.jpg);
+        }
+
+
+
+
+
    		
