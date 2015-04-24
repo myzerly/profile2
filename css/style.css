@@ -46,7 +46,8 @@
           max-height: 40px;
         }
         .about-me-background {
-          background-image: url(./img/LOSbackground.jpg);
+          background-image: url(../img/LOSbackground.jpg);
+          background-size: cover;
         }
 
 
