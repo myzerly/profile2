@@ -39,19 +39,24 @@
         }
         .profile-top-nav {
           height: 50px;
-          line-height: 50px;
           text-align: center;
+          line-height: 45px;
+          font-size: 18px;
         }
         .pirate-icon {
-          max-height: 40px;
+          max-height: 50px;
+          margin-bottom: 10px;
         }
-        .about-me-background {
+        header {
           background-image: url(../img/LOSbackground.jpg);
           background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
         }
+        .panel {
+          border: 0px;
 
-
-
-
-
-   		
+        }
+        .title-about-me {
+          color: white;
+        }
