@@ -4,12 +4,15 @@
         body {
           background-color: #F3F3F4;
         }
-        header {
-          background-image: url(../img/lospapersproto.jpg);
-          background-position: center;
-          background-size: cover;
-          margin-bottom: 5px;
+        .about-me-background {
+          position: relative;
+          z-index: -1;
         } 
+        .about-me {
+          position: absolute;
+          bottom: 0; 
+          left: 0.5em; 
+        }
         h2 {
           padding-bottom: 20px;
         }
