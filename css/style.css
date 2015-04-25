@@ -1,61 +1,83 @@
         * {
           font-family: courier, sans-serif !important;
         }
+
         body {
           background-color: #F3F3F4;
         }
+
         h2 {
           padding-bottom: 20px;
         }
-        h3 {
-          text-align: center;
-        }
-        h4 {
-          text-align: center;
-        }
+
         .stupid {
           padding: 20px;
         }
+
         .Nic { 
           margin: 20px 20px 20px 0px;
           border: 2px solid;
           border-radius: 5px;
           border-color: white;
         }
+
         .terrible {
           padding: 20px;
         }
+
         .bottom-nav {
         	background: black;
         	color: white;
         }
+
         li.bottom-nav {
         	text-align: center;
         }
+
         h5.bottom-nav {
         	padding-top: 10px;
         	text-align: center;
         }
+
         .profile-top-nav {
           height: 50px;
           text-align: center;
           line-height: 45px;
           font-size: 18px;
         }
+
         .pirate-icon {
-          max-height: 50px;
-          margin-bottom: 10px;
+          height: 70%;
+          width: 70%;
         }
+
         header {
           background-image: url(../img/LOSbackground.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+          height: 100%;
         }
+
         .panel {
           border: 0px;
-
+          margin-bottom: 20%;
         }
+
         .title-about-me {
           color: white;
         }
+        
+        @media (min-width: 400px) {
+          .blurb-about-me {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        @media (min-width: 800px) {
+          .blurb-about-me {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+          
+        
