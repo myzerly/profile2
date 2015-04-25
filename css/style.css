@@ -2,62 +2,43 @@
           font-family: courier, sans-serif !important;
         }
 
-        body {
-          background-color: #F3F3F4;
-        }
-
         h2 {
           padding-bottom: 20px;
-        }
-
-        .stupid {
-          padding: 20px;
-        }
-
-        .Nic { 
-          margin: 20px 20px 20px 0px;
-          border: 2px solid;
-          border-radius: 5px;
-          border-color: white;
-        }
-
-        .terrible {
-          padding: 20px;
         }
 
         .bottom-nav {
         	background: black;
         	color: white;
+          text-align: center;
         }
 
-        li.bottom-nav {
-        	text-align: center;
-        }
-
-        h5.bottom-nav {
+        h5.bottom-nav-header {
         	padding-top: 10px;
         	text-align: center;
+          color: white;
         }
 
         .profile-top-nav {
           height: 50px;
-          text-align: center;
-          line-height: 45px;
-          font-size: 18px;
+          font-size: 14px;
+          background-color: #F3F3F4;
+          z-index: 1;
+          text-decoration: none;
+          display: inline-block;
         }
 
         .pirate-icon {
-          height: 70%;
-          width: 70%;
+          
         }
 
-        header {
+        /*header {
           background-image: url(../img/LOSbackground.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
-          height: 100%;
-        }
+          height: auto;
+          width: 100%;
+        }*/
 
         .panel {
           border: 0px;
@@ -72,12 +53,25 @@
           .blurb-about-me {
             margin-left: 5%;
             margin-right: 5%;
+          }
+          .pirate-icon {
+            height: 50px;
+            width: 50px;
+          }
+          .profile-top-nav {
+            font-size: 14px;
+          }
         }
 
         @media (min-width: 800px) {
           .blurb-about-me {
             margin-left: 10%;
             margin-right: 10%;
+          }
+          .pirate-icon {
+            height: 50px;
+            width: 50px;
+          }
         }
           
         
