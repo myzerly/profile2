@@ -14,8 +14,6 @@
 
         h5.bottom-nav-header {
         	padding-top: 10px;
-        	text-align: center;
-          color: white;
         }
 
         .profile-top-nav {
@@ -58,9 +56,9 @@
             height: 50px;
             width: 50px;
           }
-          .profile-top-nav {
+          /*.profile-top-nav {
             font-size: 14px;
-          }
+          }*/
         }
 
         @media (min-width: 800px) {
