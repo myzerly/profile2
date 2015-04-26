@@ -49,13 +49,15 @@
             </div> -->
           <!-- </div> -->
 
+<!-- better lightweight custom top nav -->
           <div class="profile-top-nav hide-for-small">
             <ul class="top-nav-list">
-              <li><img class="myzerly-logo" src="img/myzerly-logo.png"></li>
-              <li>one</li>
-              <li>two</li>
-              <li>three</li>
-              <li>four</li>
+              <li><img class="myzerly-logo elevator" src="img/myzerly-logo.png"></a></li>
+              <li><a href="#">4th Floor</a></li>
+              <li><a href="#">3rd Floor</a></li>
+              <li><a href="#">2nd Floor</a></li>
+              <li><a href="#">1st Floor</a></li>
+              <li><a href="#">RDC</a></li>
             </ul>
           </div>
 
@@ -99,6 +101,15 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+    </script>
+    <script>
+      // Simple elevator usage.
+            var elementButton = document.querySelector('.elevator');
+            var elevator = new Elevator({
+                element: elementButton,
+                mainAudio: './music/elevator-music.mp3', // Music from http://www.bensound.com/
+                endAudio:  './music/ding.mp3' // Music from http://www.bensound.com/
+            });
     </script>
   </body>
 </html>
