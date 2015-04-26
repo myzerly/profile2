@@ -1,7 +1,7 @@
         * {
           font-family: courier, sans-serif !important;
         }
-
+       
         h2 {
           padding-bottom: 20px;
         }
@@ -19,32 +19,34 @@
         .profile-top-nav {
           height: 50px;
           font-size: 14px;
-          background-color: #F3F3F4;
           z-index: 1;
           text-decoration: none;
-          display: inline-block;
+          position: fixed;
+          padding-top: 10px;
+          padding-left: 10px;
         }
 
-        .pirate-icon {
-          
+        .top-nav-list {
+          list-style-type: none;
         }
 
-        /*header {
-          background-image: url(../img/LOSbackground.jpg);
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          height: auto;
-          width: 100%;
-        }*/
+        .myzerly-logo {
+          max-height: 90px;
+          margin-left: -15px;
+        }
 
-        .panel {
-          border: 0px;
-          margin-bottom: 20%;
+        header {
+          background: url(../img/background1.svg) repeat 0 0;
+        }
+
+        .hero {
+          padding: 2.85714rem 0;
+          padding-bottom: 4.28571rem;
         }
 
         .title-about-me {
           color: white;
+          text-align: center;
         }
         
         @media (min-width: 400px) {
