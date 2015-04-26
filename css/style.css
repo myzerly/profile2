@@ -46,12 +46,19 @@
         }
 
         .myzerly-logo {
-          max-height: 90px;
-          margin-left: -15px;
-        }
+          max-height: 200px;
+          margin-left: -50px;
+          margin-bottom: -25px;}
+          .myzerly-logo:hover {
+            cursor: pointer;
+          }
 
         header {
           background: url(../img/background1.svg) repeat 0 0;
+        }
+
+        #projects {
+          margin-left: 10%;
         }
 
         .hero {
@@ -62,6 +69,10 @@
         .title-about-me {
           color: white;
           text-align: center;
+        }
+
+        .portfolio-thumbs {
+          margin-right: 10%;
         }
         
         .floor {
