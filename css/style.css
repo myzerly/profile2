@@ -7,13 +7,16 @@
         }
 
         a {
-          color: inherit;
-        }
-
-        a:hover {
-          color: white;
-          cursor: pointer;
-        }
+          color: inherit;}
+          a:hover {
+            color: white;
+            cursor: pointer;}
+          a:focus {
+            color: white;}
+            a.top-nav-list:visited {
+              color: black;}
+            a.bottom-nav:visited {
+              color: white;}
 
         .bottom-nav {
         	background: #712D21;

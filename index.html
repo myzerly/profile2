@@ -30,6 +30,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/vendor/modernizr.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>
+    <script src='../elevator.js'></script>
   </head>
      <body>
 
@@ -52,7 +53,7 @@
 <!-- better lightweight custom top nav -->
           <div class="profile-top-nav hide-for-small">
             <ul class="top-nav-list">
-              <li><img class="myzerly-logo elevator" src="img/myzerly-logo.png"></a></li>
+              <li><img class="myzerly-logo elevator" src="img/myzerly-logo.png"></li>
               <li><a href="#">4th Floor</a></li>
               <li><a href="#">3rd Floor</a></li>
               <li><a href="#">2nd Floor</a></li>
@@ -72,8 +73,7 @@
         <div></div>
 
 <!--Projects/ links-->
-          <h3 class="title-about-me" id="projects">Projects</h3>
-            <hr/>
+          <h3 id="projects">Projects</h3>
             <div class="row">
               <div class="small-12 columns">
                 <ul class="small-block-grid-2 medium-block-grid-4">
@@ -84,13 +84,17 @@
                 </ul>
               </div>
             </div>
-            
+
+<!-- Placeholder -->
+          <hr/>
+          <div id="first floor" class="placeholder"></div>
+          <hr/>  
 <!--Bottom Nav-->
           <div class="small-12 column bottom-nav">
             <h5 class="bottom-nav-header bottom-nav">Say Hello!</h5>
               <hr/>
                 <ul class="small-block-grid-1 medium-block-grid-4">
-                  <li><a href="https://www.linkedin.com/pub/nic-edwards/36/a77/7a5/">LinkedIn</a></li>
+                  <li><a href="https://www.linkedin.com/pub/nic-edwards/36/a77/7a5/" target="_blank">LinkedIn</a></li>
                   <li><a href="https://twitter.com/NicEdwards85">Twitter</a></li>
                   <li>(408) 335 3527</li>
                   <li>nic.edwrds@gmail.com</li>
@@ -100,16 +104,16 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
-      $(document).foundation();
+    // Simple elevator usage.
+      var elementButton = document.querySelector('.elevator');
+      var elevator = new Elevator({
+          element: elementButton,
+          mainAudio: './music/elevator-music.mp3', // Music from http://www.bensound.com/
+          endAudio:  './music/ding.mp3' // Music from http://www.bensound.com/
+      });
     </script>
     <script>
-      // Simple elevator usage.
-            var elementButton = document.querySelector('.elevator');
-            var elevator = new Elevator({
-                element: elementButton,
-                mainAudio: './music/elevator-music.mp3', // Music from http://www.bensound.com/
-                endAudio:  './music/ding.mp3' // Music from http://www.bensound.com/
-            });
+      $(document).foundation();
     </script>
   </body>
 </html>
