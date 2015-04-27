@@ -48,7 +48,8 @@
         .myzerly-logo {
           max-height: 200px;
           margin-left: -50px;
-          margin-bottom: -25px;}
+          margin-bottom: 4px;
+          margin-top: -25px;}
           .myzerly-logo:hover {
             cursor: pointer;
           }
@@ -62,8 +63,8 @@
         }
 
         .hero {
-          padding: 2.85714rem 0;
-          padding-bottom: 4.28571rem;
+          padding: 2rem 0;
+          padding-bottom: 4rem;
         }
 
         .title-about-me {
@@ -82,15 +83,25 @@
         @media (min-width: 400px) {
           .blurb-about-me {
             margin-left: 5%;
-            margin-right: 5%;
+            margin-right: 5%;}
+          .title-about-me {
+            font-size: 28px;
           }
         }
 
-        @media (min-width: 800px) {
+        @media (min-width: 625px) {
           .blurb-about-me {
-            margin-left: 10%;
+            margin-left: 20%;
             margin-right: 10%;
+            padding-top: 25px;}
+          .title-about-me {
+            padding-top: 15px;}
+          .title-about-me {
+            margin-left: 18%;
+            margin-right: 8%;
           }
         }
+
+        
           
         
