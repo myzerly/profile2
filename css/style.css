@@ -1,5 +1,6 @@
         * {
           font-family: courier, sans-serif !important;
+          max-width: 100% !important;
         }
        
         h2 {
@@ -9,10 +10,10 @@
         a {
           color: inherit;}
           a:hover {
-            color: white;
+            color: #6FBCDD;
             cursor: pointer;}
           a:focus {
-            color: white;}
+            color: #6FBCDD;}
             a.top-nav-list:visited {
               color: black;}
             a.bottom-nav:visited {
@@ -22,9 +23,12 @@
         	background: #712D21;
         	color: white;
           text-align: center;
+          line-height: 25px;
         }
 
-
+        a.top-nav-list {
+          display: block;
+        }
 
         h5.bottom-nav-header {
         	padding-top: 10px;
@@ -45,6 +49,10 @@
           color: black;
         }
 
+        .nav-path {
+          padding-left: 135px;
+        }
+
         .myzerly-logo {
           max-height: 200px;
           margin-left: -50px;
@@ -58,9 +66,9 @@
           background: url(../img/background1.svg) repeat 0 0;
         }
 
-        #projects {
-          margin-left: 10%;
-        }
+       /* #projects {
+          margin-left: 135px;
+        }*/
 
         .hero {
           padding: 2rem 0;
@@ -78,6 +86,7 @@
         
         .floor {
           height: 400px;
+          text-align: center;
         }
 
         @media (min-width: 400px) {
@@ -89,7 +98,7 @@
           }
         }
 
-        @media (min-width: 625px) {
+        @media (min-width: 650px) {
           .blurb-about-me {
             margin-left: 20%;
             margin-right: 10%;
@@ -98,8 +107,15 @@
             padding-top: 15px;}
           .title-about-me {
             margin-left: 18%;
-            margin-right: 8%;
-          }
+            margin-right: 8%;}
+          /*#projects {
+            padding-left: 135px;
+          }*/
+        }
+
+        @media (min-width: 1000px) {
+          .title-about-me {
+            font-size: 36px;
         }
         
           
