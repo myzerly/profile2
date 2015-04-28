@@ -49,15 +49,15 @@
           color: black;
         }
 
-        .nav-path {
+        /*.nav-path {
           padding-left: 135px;
-        }
+        }*/
 
         .myzerly-logo {
-          max-height: 200px;
+          /*max-height: 200px;
           margin-left: -50px;
           margin-bottom: 4px;
-          margin-top: -25px;}
+          margin-top: -25px;}*/
           .myzerly-logo:hover {
             cursor: pointer;
           }
@@ -89,7 +89,7 @@
           text-align: center;
         }
 
-        @media (min-width: 400px) {
+        @media (min-width: 1000px) {
           .blurb-about-me {
             margin-left: 5%;
             margin-right: 5%;}
@@ -108,12 +108,12 @@
           .title-about-me {
             margin-left: 18%;
             margin-right: 8%;}
-          /*#projects {
+          #projects {
             padding-left: 135px;
-          }*/
+          }
         }
 
-        @media (min-width: 1000px) {
+        @media (min-width: 400px) {
           .title-about-me {
             font-size: 36px;
         }
