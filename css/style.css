@@ -1,185 +1,190 @@
-        * {
-          font-family: courier, sans-serif !important;
-        }
-       
-        h2 {
-          padding-bottom: 20px;
-        }
+* {
+  font-family: courier, sans-serif !important;
+}
 
-        a {
-          color: inherit;
-        }
+h2 {
+  padding-bottom: 20px;
+}
 
-        a:hover {
-            color: #6FBCDD;
-            cursor: pointer;
-        }
+a {
+  color: inherit;
+}
 
-        a:focus {
-            color: white;
-        }
+a:hover {
+  color: #6FBCDD;
+  cursor: pointer;
+}
 
-        a.top-nav-list:visited {
-              color: black;
-        }
+a:focus {
+  color: white;
+}
 
-        a.bottom-nav:visited {
-              color: white;
-        }
+a.top-nav-list:visited {
+  color: black;
+}
 
-        .link-to-top {
-          border: 1px solid black;
-          border-radius: 2px;
-          margin-left: 15%;
-        }
+a.bottom-nav:visited {
+  color: white;
+}
 
-        .bottom-nav {
-        	/*background: #712D21;
-        	color: white;*/
-          text-align: center;
-        }
-        .top-nav-mobile {
-          background: white;
-          text-align: center;
-          height: 100%;
-        }
+.link-to-top {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
 
-        h5.bottom-nav-header {
-        	padding-top: 10px;
-        }
+.bottom-nav {
+  /*background: #712D21;
+  color: white;*/
+  text-align: center;
+}
+.top-nav-mobile {
+  background: white;
+  text-align: center;
+  height: 100%;
+}
 
-        .profile-top-nav {
-          height: 50px;
-          font-size: 14px;
-          z-index: 1;
-          position: fixed;
-          padding-top: 10px;
-          padding-left: 10px;
-        }
+h5.bottom-nav-header {
+  padding-top: 10px;
+}
 
-        .top-nav-list {
-          list-style-type: none;
-          text-decoration: none;
-          color: black;
-        }
+.profile-top-nav {
+  height: 50px;
+  font-size: 14px;
+  z-index: 1;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
-        .nav-path {
-          width: 135px;
-        }
+.top-nav-list {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
 
-        .myzerly-logo {
-          max-height: 150px;
-          margin-left: -50px;
-          margin-bottom: 4px;
-          margin-top: -25px;
-          max-width: none;
-        }
-          
-        .myzerly-logo:hover {
-          cursor: pointer;
-        }
-        .myzerly-logo-small {
-          position: fixed;
-          z-index: -1;
-          margin-right: auto;
-          margin-left: auto;
-          bottom: -40px;
-          opacity: .25;
-        }
-        .myzerly-logo-marquis {
-          padding-right: 5%;
-          padding-top: 10%;
-          height: 525%;
-        }
+.nav-path {
+  width: 135px;
+}
 
-        header {
-          background: url(../img/background1.svg) repeat 0 0;
-        }
+.myzerly-logo {
+  max-height: 150px;
+  margin-left: -50px;
+  margin-bottom: 4px;
+  margin-top: -25px;
+  max-width: none;
+}
 
-        #projects {
-          margin-left: 10%;
-        }
+.myzerly-logo:hover {
+  cursor: pointer;
+}
+.myzerly-logo-small {
+  position: fixed;
+  z-index: -1;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: -5%;
+  bottom: -45px;
+  opacity: .25;
+}
+.myzerly-logo-marquis {
+  padding-right: 5%;
+  padding-top: 10%;
+  height: 525%;
+}
 
-        .hero {
-          padding: 2rem 0;
-          padding-bottom: 4rem;
-        }
+header {
+  background: url(../img/background1.svg) repeat 0 0;
+}
 
-        .title-about-me {
-          color: white;
-          text-align: center;
-        }
+#projects {
+  margin-left: 10%;
+}
 
-        .portfolio-thumbs {
-          margin-right: 10%;
-        }
+.hero {
+  padding: 2rem 0;
+  padding-bottom: 4rem;
+}
 
-        .back-to-top {
-          text-align: center;
-        }
+.title-about-me {
+  color: white;
+  text-align: center;
+}
 
-        .floor {
-          height: 95%;
-          text-align: center;
-        }
+.portfolio-thumbs {
+  margin-right: 10%;
+}
 
-        @media (min-width: 400px) {
-            .blurb-about-me {
-            margin-left: 10%;
-            margin-right: 10%;
-          }
-            .title-about-me {
-            font-size: 28px;
-          }
+.back-to-top {
+  text-align: center;
+}
 
-        }
+.floor {
+  height: 95%;
+  text-align: center;
+}
 
-        @media (min-width: 625px) {
-          .blurb-about-me {
-            margin-left: 20%;
-            margin-right: 10%;
-            padding-top: 25px;
-          }
-          .title-about-me {
-            padding-top: 15px;
-          }
-          .title-about-me {
-            margin-left: 18%;
-            margin-right: 8%;
-          }
-          #projects {
-            padding-left: 135px;
-          }
-        }
+@media (min-width: 400px) {
+  .blurb-about-me {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  .title-about-me {
+    font-size: 28px;
+}
 
-        @media (min-width: 1000px) {
-          .title-about-me {
-            font-size: 36px;
-            margin-right: 8%;}
-          .blurb-about-me {
-            margin-left: 20%;}
-        }
-        
+}
+
+@media (min-width: 625px) {
+  .blurb-about-me {
+    margin-left: 20%;
+    margin-right: 10%;
+    padding-top: 25px;
+  }
+  .title-about-me {
+    padding-top: 15px;
+  }
+  .title-about-me {
+    margin-left: 18%;
+    margin-right: 8%;
+  }
+  #projects {
+    padding-left: 135px;
+  }
+}
+
+@media (min-width: 1000px) {
+.title-about-me {
+  font-size: 36px;
+  margin-right: 8%;}
+.blurb-about-me {
+  margin-left: 20%;}
+}
+
+.menu {
+  margin-bottom: 2rem;
+  background-color: white;
+}
 /*Checks which media querie you've loaded*/        
-        @media (min-width: 400px) {
-          body::before { 
-            content: 'min 400';
-            position: fixed; 
-            top: 0; 
-            right: 0; 
-            background: #eee; 
-            padding: 5px;
-          }
+/*@media (min-width: 400px) {
+body::before { 
+  content: 'min 400';
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  background: #eee; 
+  padding: 5px;
+}
 
-        }
-        @media (min-width: 625px) {
-          body::before { 
-            content: 'min 625';
-          }
-        }
-        @media (min-width: 1000px) {
-          body::before { 
-            content: 'min 1000';
-          }
-        }
+}
+@media (min-width: 625px) {
+body::before { 
+  content: 'min 625';
+}
+}
+@media (min-width: 1000px) {
+body::before { 
+  content: 'min 1000';
+}
+}*/
 
