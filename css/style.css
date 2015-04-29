@@ -27,15 +27,21 @@
               color: white;
         }
 
+        .link-to-top {
+          border: 1px solid black;
+          border-radius: 2px;
+          margin-left: 15%;
+        }
+
         .bottom-nav {
-        	background: #712D21;
-        	color: white;
+        	/*background: #712D21;
+        	color: white;*/
           text-align: center;
         }
         .top-nav-mobile {
           background: white;
-          margin-bottom: 5%;
           text-align: center;
+          height: 100%;
         }
 
         h5.bottom-nav-header {
@@ -49,7 +55,6 @@
           position: fixed;
           padding-top: 10px;
           padding-left: 10px;
-          padding-bottom: 500%;
         }
 
         .top-nav-list {
@@ -78,11 +83,13 @@
           z-index: -1;
           margin-right: auto;
           margin-left: auto;
-          bottom: 0;
+          bottom: -40px;
+          opacity: .25;
         }
         .myzerly-logo-marquis {
           padding-right: 5%;
           padding-top: 10%;
+          height: 525%;
         }
 
         header {
@@ -106,9 +113,13 @@
         .portfolio-thumbs {
           margin-right: 10%;
         }
-        
+
+        .back-to-top {
+          text-align: center;
+        }
+
         .floor {
-          height: 90%;
+          height: 95%;
           text-align: center;
         }
 
@@ -171,5 +182,4 @@
             content: 'min 1000';
           }
         }
-          
-        
+
