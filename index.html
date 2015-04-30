@@ -57,11 +57,12 @@
               <li><a href="#2nd">2nd Floor</a></li>
               <li><a href="#1st">1st Floor</a></li>
               <li><a href="#RDC">RDC</a></li>
+              <li><a href="#info">Contact</a></li>
             </ul>
           </div>
 
 <!-- better Mobile top-nav -->   
-          <div class="row menu collapse">
+          <!-- <div id="top" class="row collapse">
             <div class="small-12 column hide-for-medium hide-for-large">
               <ul class="top-nav-list top-nav-mobile">
                 <li><img class="myzerly-logo-marquis" src="img/myzerly-logo.svg" alt="myzerly logo"></li>
@@ -76,13 +77,21 @@
             <div class="small-12 column">
               <img class="myzerly-logo-small hide-for-medium hide-for-large" src="img/myzerly-logo.svg" alt="myzerly logo">
             </div>
-          </div>
+          </div> -->
 
 
 
 <!-- About Me take 3 -->
-        <header id="top" class="hero">
-          <div class="row">
+        <header class="hero">
+          <div id="top" class="row">
+            <div class="small-12 column hide-for-medium hide-for-large">
+              <ul class="top-nav-list top-nav-mobile">
+                <li><img class="myzerly-logo-marquis" src="img/myzerly-logo.svg" alt="myzerly logo"></li>
+              </ul>
+            </div>
+            <div class="small-12 column">
+              <img class="myzerly-logo-small hide-for-medium hide-for-large" src="img/myzerly-logo.svg" alt="myzerly logo">
+            </div>
             <div class="small-12 column">
               <h1 class="title-about-me">Some words that pertain to me:</h1>
                 <p class="blurb-about-me">My 5 year stint as a chef in the fine dining realm encompasses most of my professional design experience. I have worked in two Michelin starred restaurants, where as a small team of six we went through an iterative design process involving the three major aspects of a meal: plating, service and taste. As a team we created the culinary experience and I want to bring those hard-earned fundamentals that I developed in the kitchen to my future endeavors.</p>
@@ -92,50 +101,73 @@
             
 
 <!--Projects/ links-->
-          <h3 id="projects">Projects</h3>
+          <!-- <h3 id="projects">Projects</h3>
             <div class="row">
               <div class="portfolio-thumbs small-12 medium-11 columns">
                 <ul class="small-block-grid-2 medium-block-grid-4">
-                  <li><h4>True Spirit<img class="th" src="img/background-pattern.png"><h4></li>
-                  <li><h4>Open Gov<img class="th" src="img/Paper Proto Features.jpeg"></h4></li>
-                  <li><h4>Fido<img class="th" src="img/Fido.jpg"></h4></li>
-                  <li><h4>Lots of Stops<img class="th" src="img/LoSPaper.jpeg"></h4></li>
+                  <li><div class="nav-path"></div>
+                  <li><h4>Open Gov<img class="th" src="img/background-pattern.png"></h4></li>
+                  <li><h4>Open Gov<img class="th" src="img/background-pattern.png"></h4></li>
+                  <li><h4>Open Gov<img class="th" src="img/background-pattern.png"></h4></li>
                 </ul>
               </div>
-              <div class="nav-path medium-1 columns hide-for-small"></div>
-            </div>
+            </div> -->
           
 <!-- Placeholder -->
-          <hr/>
-            <div id="4th" class="floor">4th</div>
+            <div id="4th" class="floor">
+              <h1>4th</h1>
+              <dl class="tabs nav-pad" data-tab>
+                <dd class="active"><a href="#panel1">Tab 1</a></dd>
+                <dd><a href="#panel2">Tab 2</a></dd>
+                <dd><a href="#panel3">Tab 3</a></dd>
+              </dl>
+              <div class="tabs-content nav-pad">
+                <div class="content active" id="panel1">
+                  <p>This is the first panel of the basic tab example. This is the first panel of the basic tab example.</p>
+                </div>
+                <div class="content" id="panel2">
+                  <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div>
+                <div class="content" id="panel3">
+                  <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+                </div>
+              </div>
+            </div>
           <a class="link-to-top" href="#top">back to top</a>
 <!-- Placeholder -->
           <hr/>
-            <div id="3rd" class="floor">3rd</div>
+            <div id="3rd" class="floor">
+              <h1>3rd</h1>
+            </div>
           <a class="link-to-top" href="#top">back to top</a>
 <!-- Placeholder -->
           <hr/>
-            <div id="2nd" class="floor">2nd</div>
+            <div id="2nd" class="floor">
+              <h1>2nd</h1>
+            </div>
           <a class="link-to-top" href="#top">back to top</a>
 <!-- Placeholder -->
           <hr/>
-            <div id="1st" class="floor">1st</div>
+            <div id="1st" class="floor">
+              <h1>1st</h1>
+            </div>
           <a class="link-to-top" href="#top">back to top</a>
 <!-- Placeholder -->
           <hr/>
-            <div id="RDC" class="floor">RDC</div>
+            <div id="RDC" class="floor">
+              <h1>RDC</h1>
+            </div>
           <a class="link-to-top" href="#top">back to top</a>
           <hr/>
+
 <!--Bottom Nav-->
-          <div class="small-12 column bottom-nav">
-            <h5 class="bottom-nav-header bottom-nav">Say Hello!</h5>
-              
-                <ul class="small-block-grid-1 medium-block-grid-4">
-                  <li><a href="https://www.linkedin.com/pub/nic-edwards/36/a77/7a5/" target="_blank">LinkedIn</a></li>
-                  <li><a href="https://twitter.com/NicEdwards85">Twitter</a></li>
-                  <li>(408) 335 3527</li>
-                  <li>email</li>
-                </ul>
+          <div id="info" class="small-12 column bottom-nav">
+            <ul class="small-block-grid-1 medium-block-grid-4">
+              <li><a href="https://www.linkedin.com/pub/nic-edwards/36/a77/7a5/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://twitter.com/NicEdwards85">Twitter</a></li>
+              <li>(408) 335 3527</li>
+              <li>email</li>
+            </ul>
           </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

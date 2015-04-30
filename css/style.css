@@ -1,4 +1,4 @@
-* {
+body, h1, h2, header {
   font-family: courier, sans-serif !important;
 }
 
@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #6FBCDD;
+  color: #46788E;
   cursor: pointer;
 }
 
@@ -38,11 +38,11 @@ a.bottom-nav:visited {
   color: white;*/
   text-align: center;
 }
-.top-nav-mobile {
+/*.top-nav-mobile {
   background: white;
   text-align: center;
   height: 100%;
-}
+}*/
 
 h5.bottom-nav-header {
   padding-top: 10px;
@@ -65,13 +65,14 @@ h5.bottom-nav-header {
 
 .nav-path {
   width: 135px;
+  height: 100%;
 }
 
 .myzerly-logo {
-  max-height: 150px;
-  margin-left: -50px;
-  margin-bottom: 4px;
-  margin-top: -25px;
+  max-height: 190px;
+  margin-left: -68px;
+  margin-bottom: -20px;
+  margin-top: -35px;
   max-width: none;
 }
 
@@ -89,8 +90,8 @@ h5.bottom-nav-header {
 }
 .myzerly-logo-marquis {
   padding-right: 5%;
-  padding-top: 10%;
-  height: 525%;
+  margin-bottom: -5%;
+  margin-top: -10%;
 }
 
 header {
@@ -98,7 +99,7 @@ header {
 }
 
 #projects {
-  margin-left: 10%;
+  text-align: center;
 }
 
 .hero {
@@ -128,12 +129,15 @@ header {
   .blurb-about-me {
     margin-left: 10%;
     margin-right: 10%;
-}
+  }
   .title-about-me {
     font-size: 28px;
-}
-
-}
+    font-family: inherit;
+  }
+  .nav-pad {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
 @media (min-width: 625px) {
   .blurb-about-me {
@@ -148,23 +152,21 @@ header {
     margin-left: 18%;
     margin-right: 8%;
   }
-  #projects {
+  .nav-pad {
     padding-left: 135px;
   }
 }
 
 @media (min-width: 1000px) {
-.title-about-me {
-  font-size: 36px;
-  margin-right: 8%;}
-.blurb-about-me {
-  margin-left: 20%;}
+  .title-about-me {
+    font-size: 36px;
+    margin-right: 8%;
+  }
+  .blurb-about-me {
+    margin-left: 20%;
+  }
 }
 
-.menu {
-  margin-bottom: 2rem;
-  background-color: white;
-}
 /*Checks which media querie you've loaded*/        
 /*@media (min-width: 400px) {
 body::before { 
