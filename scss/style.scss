@@ -1,0 +1,186 @@
+@import "normalize";
+@import "foundation";
+
+body, h1, h2, header {
+  font-family: courier, sans-serif !important;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    color: #46788E;
+    cursor: pointer;
+  }
+  &:focus {
+    color: white;
+  }
+}
+
+a.top-nav-list:visited {
+  color: black;
+}
+
+a.bottom-nav:visited {
+  color: white;
+}
+
+.link-to-top {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.bottom-nav {
+  text-align: center;
+}
+
+h5.bottom-nav-header {
+  padding-top: 10px;
+}
+
+.profile-top-nav {
+  height: 50px;
+  font-size: 14px;
+  z-index: 1;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.top-nav-list {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-path {
+  width: 135px;
+  height: 100%;
+}
+
+.myzerly-logo {
+  max-height: 190px;
+  margin-left: -68px;
+  margin-bottom: -20px;
+  margin-top: -35px;
+  max-width: none;
+}
+
+.myzerly-logo:hover {
+  cursor: pointer;
+}
+.myzerly-logo-small {
+  position: fixed;
+  z-index: -1;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: -5%;
+  bottom: -45px;
+  opacity: .25;
+}
+.myzerly-logo-marquis {
+  padding-right: 5%;
+  margin-bottom: -5%;
+  margin-top: -10%;
+}
+
+header {
+  background: url(../img/background1.svg) repeat 0 0;
+}
+
+#projects {
+  text-align: center;
+}
+
+.hero {
+  padding: 2rem 0;
+  padding-bottom: 4rem;
+}
+
+.title-about-me {
+  color: white;
+  text-align: center;
+}
+
+.portfolio-thumbs {
+  margin-right: 10%;
+}
+
+.back-to-top {
+  text-align: center;
+}
+
+.floor {
+  height: 95%;
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+  .blurb-about-me {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .title-about-me {
+    font-size: 28px;
+    font-family: inherit;
+  }
+  .nav-pad {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 625px) {
+  .blurb-about-me {
+    margin-left: 20%;
+    margin-right: 10%;
+    padding-top: 25px;
+  }
+  .title-about-me {
+    padding-top: 15px;
+  }
+  .title-about-me {
+    margin-left: 18%;
+    margin-right: 8%;
+  }
+  .nav-pad {
+    padding-left: 135px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .title-about-me {
+    font-size: 36px;
+    margin-right: 8%;
+  }
+  .blurb-about-me {
+    margin-left: 20%;
+  }
+}
+
+// Checks which media querie you've loaded         
+@media (min-width: 400px) {
+  body::before { 
+    content: 'min 400';
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    background: #eee; 
+    padding: 5px;
+  }
+
+}
+@media (min-width: 625px) {
+  body::before { 
+    content: 'min 625';
+  }
+}
+@media (min-width: 1000px) {
+  body::before { 
+    content: 'min 1000';
+  }
+}
+
