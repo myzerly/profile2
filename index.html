@@ -25,7 +25,7 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/foundation.min.css" />
+    <!-- <link rel="stylesheet" href="css/foundation.min.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/vendor/modernizr.js"></script>
     <script src='js/elevator.js'></script>
@@ -116,28 +116,14 @@
 <!-- Placeholder -->
             <div id="4th" class="floor">
               <h1>4th</h1>
-              <dl class="tabs nav-pad" data-tab>
-                <dd class="active"><a href="#panel1">Tab 1</a></dd>
-                <dd><a href="#panel2">Tab 2</a></dd>
-                <dd><a href="#panel3">Tab 3</a></dd>
-              </dl>
-              <div class="tabs-content nav-pad">
-                <div class="content active" id="panel1">
-                  <p>This is the first panel of the basic tab example. This is the first panel of the basic tab example.</p>
-                </div>
-                <div class="content" id="panel2">
-                  <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
-                </div>
-                <div class="content" id="panel3">
-                  <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
-                </div>
-              </div>
+
             </div>
           <a class="link-to-top" href="#top">back to top</a>
 <!-- Placeholder -->
           <hr/>
             <div id="3rd" class="floor">
               <h1>3rd</h1>
+              
             </div>
           <a class="link-to-top" href="#top">back to top</a>
 <!-- Placeholder -->
@@ -171,6 +157,9 @@
           </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
     // Simple elevator usage.
       var elementButton = document.querySelector('.elevator');
@@ -179,6 +168,7 @@
           mainAudio: './music/elevator-music.mp3', // Music from http://www.bensound.com/
           endAudio:  './music/ding.mp3' // Music from http://www.bensound.com/
       });
+
     </script>
     <script>
       $(document).foundation();

@@ -34,15 +34,8 @@ a.bottom-nav:visited {
 }
 
 .bottom-nav {
-  /*background: #712D21;
-  color: white;*/
   text-align: center;
 }
-/*.top-nav-mobile {
-  background: white;
-  text-align: center;
-  height: 100%;
-}*/
 
 h5.bottom-nav-header {
   padding-top: 10px;
