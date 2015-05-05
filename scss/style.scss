@@ -11,17 +11,16 @@ h2 {
 
 a {
   color: inherit;
-  &:hover {
+  :hover {
     color: #46788E;
-    cursor: pointer;
   }
-  &:focus {
+  :focus {
     color: white;
   }
-  &.top-nav-list:visited {
+  .top-nav-list:visited {
   color: white;
   }
-  &.bottom-nav:visited {
+  .bottom-nav:visited {
   color: white;
   }
 }
@@ -66,7 +65,7 @@ h5.bottom-nav-header {
   margin-bottom: -20px;
   margin-top: -35px;
   max-width: none;
-  
+
   &:hover {
       cursor: pointer;
     }
@@ -131,6 +130,7 @@ header {
     padding-right: 5%;
   }
 }
+
 @media (min-width: 625px) {
   .blurb-about-me {
     margin-left: 20%;

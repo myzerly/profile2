@@ -6503,14 +6503,13 @@ h2 {
 
 a {
   color: inherit; }
-  a:hover {
-    color: #46788E;
-    cursor: pointer; }
-  a:focus {
+  a :hover {
+    color: #46788E; }
+  a :focus {
     color: white; }
-  a.top-nav-list:visited {
+  a .top-nav-list:visited {
     color: white; }
-  a.bottom-nav:visited {
+  a .bottom-nav:visited {
     color: white; }
 
 .link-to-top {
