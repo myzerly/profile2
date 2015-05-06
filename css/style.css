@@ -6503,14 +6503,24 @@ h2 {
 
 a {
   color: inherit; }
-  a :hover {
+  a:hover {
     color: #46788E; }
-  a :focus {
+  a:focus {
     color: white; }
-  a .top-nav-list:visited {
+  a.top-nav-list:visited {
     color: white; }
-  a .bottom-nav:visited {
+  a.bottom-nav:visited {
     color: white; }
+
+.top-nav-list a {
+  display: block;
+  height: 100%;
+  transition-property: padding-left, font-weight;
+  transition-duration: .5s;
+  transition-delay: 0s; }
+  .top-nav-list a:hover {
+    padding-left: 15px;
+    font-weight: 900; }
 
 .link-to-top {
   width: 100%;
