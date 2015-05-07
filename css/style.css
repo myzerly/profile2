@@ -6503,14 +6503,6 @@ h2 {
 
 a {
   color: inherit; }
-  a:hover {
-    color: #46788E; }
-  a:focus {
-    color: white; }
-  a.top-nav-list:visited {
-    color: white; }
-  a.bottom-nav:visited {
-    color: white; }
 
 .top-nav-list a {
   display: block;
@@ -6519,7 +6511,7 @@ a {
   transition-duration: .5s;
   transition-delay: 0s; }
   .top-nav-list a:hover {
-    padding-left: 15px;
+    padding-left: 10px;
     font-weight: 900; }
 
 .link-to-top {
@@ -6545,10 +6537,6 @@ h5.bottom-nav-header {
   list-style-type: none;
   text-decoration: none;
   color: black; }
-
-.nav-path {
-  width: 135px;
-  height: 100%; }
 
 .myzerly-logo {
   max-height: 190px;
@@ -6616,14 +6604,9 @@ header {
     padding-top: 25px; }
 
   .title-about-me {
-    padding-top: 15px; }
-
-  .title-about-me {
+    padding-top: 15px;
     margin-left: 18%;
-    margin-right: 8%; }
-
-  .nav-pad {
-    padding-left: 135px; } }
+    margin-right: 8%; } }
 @media (min-width: 1000px) {
   .title-about-me {
     font-size: 36px;
