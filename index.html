@@ -33,20 +33,13 @@
      <body>
 
 <!-- custom top nav -->
-          <!-- <div class="collapse profile-top-nav">
-            <div class="profile-top-nav">
-              <div class="row">
-                <div class="small-2 column">
-                  <span data-tooltip aria-haspopup="true" class="tip-right" title="I was made with Sketch. Go away now."><a href="#projects"><img class="pirate-icon" src="img/pirate.png"></a></span>
-                </div>
-                <div class="small-2 large-2 column">two</div>
-                <div class="small-2 large-2 column">three</div>
-                <div class="small-2 large-2 column">four</div>
-                <div class="small-2 large-2 column">five</div>
-                <div class="small-2 large-2 column">six</div>
-              </div>
-            </div> -->
-          <!-- </div> -->
+          <!-- <ul class="shame">
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+          </ul> -->
 
 <!-- better lightweight custom top nav -->
           <div class="profile-top-nav hide-for-small">
@@ -62,7 +55,7 @@
           </div>
 
 <!-- better Mobile top-nav -->   
-          <!-- <div id="top" class="row collapse">
+          <div id="top" class="row collapse">
             <div class="small-12 column hide-for-medium hide-for-large">
               <ul class="top-nav-list top-nav-mobile">
                 <li><img class="myzerly-logo-marquis" src="img/myzerly-logo.svg" alt="myzerly logo"></li>
@@ -77,7 +70,7 @@
             <div class="small-12 column">
               <img class="myzerly-logo-small hide-for-medium hide-for-large" src="img/myzerly-logo.svg" alt="myzerly logo">
             </div>
-          </div> -->
+          </div>
 
 
 
@@ -173,7 +166,6 @@
     <script src="js/foundation.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
     // Simple elevator usage.
       var elementButton = document.querySelector('.elevator');
@@ -183,6 +175,19 @@
           endAudio:  './music/ding.mp3' // Music from http://www.bensound.com/
       });
 
+    </script>
+    <script>
+      $('a[href^="#"]').on('click', function(event) {
+
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+      }
+    });
     </script>
     <script>
       $(document).foundation();

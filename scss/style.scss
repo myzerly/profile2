@@ -15,13 +15,14 @@ a {
     color: #46788E;
   }
   &:focus {
-    color: white;
+    color: black;
+    font-weight: 900;
   }
   &.top-nav-list:visited {
-  color: white;
+    color: black;
   }
   &.bottom-nav:visited {
-  color: white;
+    color: white;
   }
 }
 
@@ -29,11 +30,12 @@ a {
   a {
     display: block;
     height: 100%;
+    padding-left: 20px;
     transition-property: padding-left, font-weight;
     transition-duration: .5s;
     transition-delay: 0s;
     &:hover {
-      padding-left: 15px;
+      padding-left: 30px;
       font-weight: 900;
     }
   }
@@ -63,12 +65,14 @@ h5.bottom-nav-header {
   padding-left: 10px;
 }
 
-.top-nav-list {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
+ul {
+  &.top-nav-list {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  }
 }
-
 .nav-path {
   width: 135px;
   height: 100%;
@@ -76,7 +80,7 @@ h5.bottom-nav-header {
 
 .myzerly-logo {
   max-height: 190px;
-  margin-left: -68px;
+  margin-left: -48px;
   margin-bottom: -20px;
   margin-top: -35px;
   max-width: none;
@@ -155,8 +159,6 @@ header {
   }
   .title-about-me {
     padding-top: 15px;
-  }
-  .title-about-me {
     margin-left: 18%;
     margin-right: 8%;
   }
@@ -198,3 +200,6 @@ header {
   }
 }
 
+ul.shame li {
+  display: inline;
+}

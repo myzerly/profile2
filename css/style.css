@@ -6506,20 +6506,22 @@ a {
   a:hover {
     color: #46788E; }
   a:focus {
-    color: white; }
+    color: black;
+    font-weight: 900; }
   a.top-nav-list:visited {
-    color: white; }
+    color: black; }
   a.bottom-nav:visited {
     color: white; }
 
 .top-nav-list a {
   display: block;
   height: 100%;
+  padding-left: 20px;
   transition-property: padding-left, font-weight;
   transition-duration: .5s;
   transition-delay: 0s; }
   .top-nav-list a:hover {
-    padding-left: 15px;
+    padding-left: 30px;
     font-weight: 900; }
 
 .link-to-top {
@@ -6541,7 +6543,8 @@ h5.bottom-nav-header {
   padding-top: 10px;
   padding-left: 10px; }
 
-.top-nav-list {
+ul.top-nav-list {
+  display: inline;
   list-style-type: none;
   text-decoration: none;
   color: black; }
@@ -6552,7 +6555,7 @@ h5.bottom-nav-header {
 
 .myzerly-logo {
   max-height: 190px;
-  margin-left: -68px;
+  margin-left: -48px;
   margin-bottom: -20px;
   margin-top: -35px;
   max-width: none; }
@@ -6616,9 +6619,7 @@ header {
     padding-top: 25px; }
 
   .title-about-me {
-    padding-top: 15px; }
-
-  .title-about-me {
+    padding-top: 15px;
     margin-left: 18%;
     margin-right: 8%; }
 
@@ -6645,5 +6646,7 @@ header {
 @media (min-width: 1000px) {
   body::before {
     content: 'min 1000'; } }
+ul.shame li {
+  display: inline; }
 
 /*# sourceMappingURL=style.css.map */
