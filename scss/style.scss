@@ -10,34 +10,42 @@ h2 {
 }
 
 a {
-  color: inherit;
+  color: black;
+  transition-property: font-size, font-weight;
+  transition-duration: .5s;
   &:hover {
-    color: #46788E;
-  }
-  &:focus {
+    font-size: 18px;
+    font-weight: 600;
     color: black;
-    font-weight: 900;
   }
   &.top-nav-list:visited {
     color: black;
   }
   &.bottom-nav:visited {
-    color: white;
+    color: black;
   }
 }
 
-.top-nav-list {
-  a {
-    display: block;
-    height: 100%;
-    padding-left: 20px;
-    transition-property: padding-left, font-weight;
-    transition-duration: .5s;
-    transition-delay: 0s;
-    &:hover {
-      padding-left: 30px;
-      font-weight: 900;
-    }
+// .top-nav-list {
+//   a {
+//     display: block;
+//     height: 100%;
+//     padding-left: 20px;
+//     transition-property: padding-left, font-weight;
+//     transition-duration: .5s;
+//     transition-delay: 0s;
+//     &:hover {
+//       padding-left: 30px;
+//       font-weight: 900;
+//     }
+//   }
+// }
+//box-shadow: 
+
+.top-nav {
+  li {
+    display: inline;
+
   }
 }
 
@@ -198,8 +206,4 @@ header {
   body::before { 
     content: 'min 1000';
   }
-}
-
-ul.shame li {
-  display: inline;
 }

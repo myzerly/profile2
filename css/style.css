@@ -6502,27 +6502,20 @@ h2 {
   padding-bottom: 20px; }
 
 a {
-  color: inherit; }
+  color: black;
+  transition-property: font-size, font-weight;
+  transition-duration: .5s; }
   a:hover {
-    color: #46788E; }
-  a:focus {
-    color: black;
-    font-weight: 900; }
+    font-size: 18px;
+    font-weight: 600;
+    color: black; }
   a.top-nav-list:visited {
     color: black; }
   a.bottom-nav:visited {
-    color: white; }
+    color: black; }
 
-.top-nav-list a {
-  display: block;
-  height: 100%;
-  padding-left: 20px;
-  transition-property: padding-left, font-weight;
-  transition-duration: .5s;
-  transition-delay: 0s; }
-  .top-nav-list a:hover {
-    padding-left: 30px;
-    font-weight: 900; }
+.top-nav li {
+  display: inline; }
 
 .link-to-top {
   width: 100%;
@@ -6646,7 +6639,5 @@ header {
 @media (min-width: 1000px) {
   body::before {
     content: 'min 1000'; } }
-ul.shame li {
-  display: inline; }
 
 /*# sourceMappingURL=style.css.map */
