@@ -6502,9 +6502,10 @@ h2 {
   padding-bottom: 20px; }
 
 a {
-  color: inherit; }
+  color: black; }
 
 .top-nav-list a {
+  color: black;
   display: block;
   height: 100%;
   transition-property: padding-left, font-weight;

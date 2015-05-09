@@ -11,11 +11,12 @@ h2 {
 }
 
 a {
-  color: inherit;
+  color: black;
 }
 
 .top-nav-list {
   a {
+    color: black;
     display: block;
     height: 100%;
     transition-property: padding-left, font-weight;
@@ -27,7 +28,6 @@ a {
     }
   }
 }
-
 
 .link-to-top {
   width: 100%;
@@ -69,6 +69,7 @@ h5.bottom-nav-header {
       cursor: pointer;
     }
   }
+
 .myzerly-logo-small {
   position: fixed;
   z-index: -1;
