@@ -10,15 +10,19 @@ h2 {
 }
 
 a {
-  color: black;
+  color: black !important;
   transition-property: font-size, font-weight;
   transition-duration: .5s;
+  text-decoration: none;
   &:hover {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     color: black;
   }
   &.top-nav-list:visited {
+    color: black;
+  }
+  &.top-nav-list:focus {
     color: black;
   }
   &.bottom-nav:visited {
@@ -40,15 +44,23 @@ a {
 //     }
 //   }
 // }
-//box-shadow: 
+//box-shadow: effects for pseudo elements
 
 .top-nav {
   li {
     display: inline;
-
+    margin-left: 2rem;
+    width: 100%;
   }
 }
 
+.top-nav-background {
+  background: white;
+  height: 4.25rem;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
 
 .link-to-top {
   width: 100%;
@@ -73,21 +85,17 @@ h5.bottom-nav-header {
   padding-left: 10px;
 }
 
-ul {
-  &.top-nav-list {
+.top-nav-list {
+  ul {
     display: inline;
     list-style-type: none;
     text-decoration: none;
     color: black;
   }
 }
-.nav-path {
-  width: 135px;
-  height: 100%;
-}
 
 .myzerly-logo {
-  max-height: 190px;
+  max-height: 175px;
   margin-left: -48px;
   margin-bottom: -20px;
   margin-top: -35px;
@@ -161,27 +169,17 @@ header {
 
 @media (min-width: 625px) {
   .blurb-about-me {
-    margin-left: 20%;
-    margin-right: 10%;
-    padding-top: 25px;
+    padding-top: 1rem;
   }
   .title-about-me {
-    padding-top: 15px;
-    margin-left: 18%;
-    margin-right: 8%;
-  }
-  .nav-pad {
-    padding-left: 135px;
+    padding-top: 4rem;
   }
 }
 
-@media (min-width: 1000px) {
-  .title-about-me {
-    font-size: 36px;
-    margin-right: 8%;
-  }
+@media  (min-width: 1000px) {
   .blurb-about-me {
-    margin-left: 20%;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
