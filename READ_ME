@@ -1,0 +1,5 @@
+# Basic things to remember when developing for "personal-site"
+
+
+# Before making changes to scss run this from the "personal-site" directory
+# sass --watch scss

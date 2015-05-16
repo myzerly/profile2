@@ -6582,6 +6582,9 @@ h5.bottom-nav-header {
   margin-bottom: -5%;
   margin-top: -10%; }
 
+img.code-party-nav {
+  max-width: 2em; }
+
 header {
   background: url(../img/background1.svg) repeat 0 0; }
 

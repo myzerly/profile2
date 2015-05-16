@@ -50,7 +50,6 @@ a {
   margin-top: -6.5rem;
   li {
     display: inline;
-    text-align: justify;
     margin-left: 2rem;
     width: 100%;
   }
@@ -125,6 +124,10 @@ h5.bottom-nav-header {
   padding-right: 5%;
   margin-bottom: -5%;
   margin-top: -10%;
+}
+
+img.code-party-nav {
+  max-width: 2em;
 }
 
 header {
